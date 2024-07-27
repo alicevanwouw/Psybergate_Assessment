@@ -1,4 +1,3 @@
-// CustomerList.jsx
 import React from 'react';
 import useNavigation from '../hooks/useNavigation';
 import Layout from '../components/Layout';
@@ -8,27 +7,30 @@ import LinkButton from '../components/LinkButton';
 const CustomerList = () => {
     const { navigateToPage } = useNavigation();
 
-    const ActionButton = ({ id, action }) => {
-        return <button className="btn-base btn" onClick={() => action(id)}>Read More</button>;
+    const ActionButton = ({ row }) => {
+        return <button className="btn-base btn" onClick={() => loadDetails(row)}>Read More</button>;
     };
 
-    const loadDetails = (id) => {
-        navigateToPage(`/customers/${id}`);
+    const loadDetails = (row) => {
+        navigateToPage(`/customers/${row.Id}`, { state: { customer: row } });
     };
 
     const columns = [
         { key: 'Name', displayName: 'Name', type: "text" },
         { key: 'Surname', displayName: 'Surname', type: "text" },
         { key: 'CellNumber', displayName: 'Cell Number', type: "number" },
-        { key: 'Action', displayName: 'Action', type: "button", action: "loadDetails" }
-    ];
-    const data = [
-        { Id: 1, Name: 'Bob', Surname: 'Bobson', CellNumber: '0831234567', Action: (id) => <ActionButton id={id} action={loadDetails} /> },
-        { Id: 2, Name: 'Bob', Surname: 'Bobson', CellNumber: '0831234567', Action: (id) => <ActionButton id={id} action={loadDetails} /> },
-        { Id: 3, Name: 'Bob', Surname: 'Bobson', CellNumber: '0831234567', Action: (id) => <ActionButton id={id} action={loadDetails} /> }
+        { key: 'Action', displayName: 'Action', type: "button" }
     ];
 
-    const heading = `All Customers (${data.length})`;
+    let data = undefined;
+
+    data = [
+         { Id: 1, Name: 'Bob', Surname: 'Bobson', CellNumber: '0831234567' },
+         { Id: 2, Name: 'Bob', Surname: 'Bobson', CellNumber: '0831234567' },
+         { Id: 3, Name: 'Bob', Surname: 'Bobson', CellNumber: '0831234567' }
+     ];
+
+    const heading = `All Customers (${data ? data.length : 0})`;
 
     return (
         <Layout>
@@ -36,8 +38,14 @@ const CustomerList = () => {
                 <div className="items-space-between pb-3">
                     <h1>{heading}</h1>
                     <LinkButton text="Add Customer" onClick={() => navigateToPage("/customers/new/details")} />
-                </div>          
-                <Table columns={columns} data={data} />
+                </div>
+                {
+                    !data || data.length === 0 ? (
+                        <p>No Customer Information available.</p>
+                    ) : (
+                        <Table columns={columns} data={data.map(row => ({ ...row, Action: (id) => <ActionButton row={row} /> }))} />
+                    )
+                }
             </div>
         </Layout>
     );

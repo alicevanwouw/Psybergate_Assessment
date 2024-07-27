@@ -10,7 +10,6 @@ function Header() {
                     <div className="ps-3">
                         <Link to="/customers">
                             <Logo />
-                            {/* <img src="./assets/sample-logo" width="30" height="30" className="d-inline-block align-top" alt="" />*/}
                         </Link>
                     </div>
 

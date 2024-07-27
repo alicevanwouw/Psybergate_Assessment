@@ -1,17 +1,31 @@
 // CustomerDetails.jsx
 import React from 'react';
-import { useParams } from 'react-router-dom';
+import Layout from '../components/Layout';
+import { useLocation } from 'react-router-dom';
 
 const CustomerDetails = () => {
-    const { id } = useParams();
+    const location = useLocation();
+    const customer = location.state?.customer;
 
-    // Fetch or display customer details based on the id
-    // For demonstration purposes, let's just display the id
+    if (!customer) {
+        return (
+            <Layout>
+                <div>                 
+                    <p>No Customer Information</p>
+                </div>
+            </Layout>
+        );
+    }
+
     return (
-        <div>
-            <h1>Customer Details for ID: {id}</h1>
-            {/* Add more details here */}
-        </div>
+        <Layout>
+            <div>
+                <h1>Customer Details</h1>
+                <p><strong>Name:</strong> {customer.Name}</p>
+                <p><strong>Surname:</strong> {customer.Surname}</p>
+                <p><strong>Cell Number:</strong> {customer.CellNumber}</p>
+            </div>
+         </Layout>
     );
 }
 
