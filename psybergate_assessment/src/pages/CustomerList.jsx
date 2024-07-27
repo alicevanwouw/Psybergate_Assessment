@@ -16,6 +16,10 @@ const CustomerList = () => {
         navigate(`/customers/${id}`);
     };
 
+    const navigateToAddCustomer = () => {
+        navigate('/customers/new/details');
+    };
+
     const columns = [
         { key: 'Name', displayName: 'Name', type: "text" },
         { key: 'Surname', displayName: 'Surname', type: "text" },
@@ -35,7 +39,7 @@ const CustomerList = () => {
             <div className="p-3 pt-4">
                 <div className="items-space-between pb-3">
                     <h1>{heading}</h1>
-                    <LinkButton text="Add Customer" href="./customers/new/details" />
+                    <LinkButton text="Add Customer" onClick={navigateToAddCustomer} />
                 </div>          
                 <Table columns={columns} data={data} />
             </div>

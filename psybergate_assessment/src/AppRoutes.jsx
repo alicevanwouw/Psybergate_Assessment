@@ -11,7 +11,7 @@ export const AppRoutes = () => {
         <Router>
             <Routes>
                 <Route path="/" element={<Navigate to="/customers" replace />} />
-                <Route path="/customers/:id" component={<CustomerDetails/>} />
+                <Route path="/customers/:id" element={<CustomerDetails />} />
                 <Route path="/customers" element={<CustomerList />} />
                 <Route path="/customers/new/details" element={<NewCustomerDetails />} />
                 <Route path="/customers/new/address" element={<NewCustomerAddress />} />

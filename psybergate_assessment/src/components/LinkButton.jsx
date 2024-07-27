@@ -1,6 +1,6 @@
 
-function LinkButton({ text, href }) {
-    return <a href={href} className=" btn-base btn " role="button">{text}</a>
+function LinkButton({ text, onClick }) {
+    return <button className="btn-base btn" onClick={onClick}>{text}</button>;
 }
 
 export default LinkButton;
