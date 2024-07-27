@@ -1,23 +1,19 @@
 // CustomerList.jsx
 import React from 'react';
-import { useNavigate } from 'react-router-dom';
+import useNavigation from '../hooks/useNavigation';
 import Layout from '../components/Layout';
 import Table from '../components/Table';
 import LinkButton from '../components/LinkButton';
 
 const CustomerList = () => {
-    const navigate = useNavigate();
+    const { navigateToPage } = useNavigation();
 
     const ActionButton = ({ id, action }) => {
         return <button className="btn-base btn" onClick={() => action(id)}>Read More</button>;
     };
 
     const loadDetails = (id) => {
-        navigate(`/customers/${id}`);
-    };
-
-    const navigateToAddCustomer = () => {
-        navigate('/customers/new/details');
+        navigateToPage(`/customers/${id}`);
     };
 
     const columns = [
@@ -28,8 +24,8 @@ const CustomerList = () => {
     ];
     const data = [
         { Id: 1, Name: 'Bob', Surname: 'Bobson', CellNumber: '0831234567', Action: (id) => <ActionButton id={id} action={loadDetails} /> },
-        { Id: 2, Name: 'Bob', Surname: 'Bobson', CellNumber: '0831234567', Action: (id) => <button className="btn-base btn" onClick={() => loadDetails(id)}>Read More</button> },
-        { Id: 3, Name: 'Bob', Surname: 'Bobson', CellNumber: '0831234567', Action: (id) => <button className="btn-base btn" onClick={() => loadDetails(id)}>Read More</button> }
+        { Id: 2, Name: 'Bob', Surname: 'Bobson', CellNumber: '0831234567', Action: (id) => <ActionButton id={id} action={loadDetails} /> },
+        { Id: 3, Name: 'Bob', Surname: 'Bobson', CellNumber: '0831234567', Action: (id) => <ActionButton id={id} action={loadDetails} /> }
     ];
 
     const heading = `All Customers (${data.length})`;
@@ -39,7 +35,7 @@ const CustomerList = () => {
             <div className="p-3 pt-4">
                 <div className="items-space-between pb-3">
                     <h1>{heading}</h1>
-                    <LinkButton text="Add Customer" onClick={navigateToAddCustomer} />
+                    <LinkButton text="Add Customer" onClick={() => navigateToPage("/customers/new/details")} />
                 </div>          
                 <Table columns={columns} data={data} />
             </div>
