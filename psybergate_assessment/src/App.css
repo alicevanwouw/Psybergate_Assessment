@@ -19,6 +19,10 @@ thead {
     border-top: 2px solid #86adad !important;
 }
 
+thead, tbody, tfoot, tr, td, th {
+    padding-left: 20px !important;
+}
+
 h1 {
     font-family: 'Lora', serif;
 }
@@ -65,11 +69,17 @@ h3 {
 .nav-button {
     text-decoration: none;
     color: inherit;
+    font-weight: 500;
 }
 
 .btn-base {
     color: white !important;
     background-color: #86adad!important;
+}
+
+.btn-base:hover {
+    background-color: #718f8f !important;
+    transform: scale(1.05); /* Slightly enlarges the button */
 }
 
 

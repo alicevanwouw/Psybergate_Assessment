@@ -1,35 +1,28 @@
 
-function Table() {
+function Table({ columns, data }) {
     return (
-        <>
-            <table class="table">
-                <thead>
-                    <tr>
-                        <th scope="col">#</th>
-                        <th scope="col">First</th>
-                        <th scope="col">Last</th>
+        <table className="table">
+            <thead>
+                <tr>
+                    {columns.map((column, index) => (
+                        <th key={index}>{column.displayName}</th>
+                    ))}
+                </tr>
+            </thead>
+            <tbody>
+                {data.map((row, rowIndex) => (
+                    <tr key={rowIndex}>
+                        {columns.map((column, colIndex) => (
+                            column.key !== "Action" ? (
+                                <td key={colIndex}>{row[column.key]}</td>
+                            ) : (
+                                <td key={colIndex}>{row.Action(row.Id)}</td>
+                            )
+                        ))}
                     </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <th scope="row">1</th>
-                        <td>Mark</td>
-                        <td>Otto</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">2</th>
-                        <td>Jacob</td>
-                        <td>Thornton</td>
-
-                    </tr>
-                    <tr>
-                        <th scope="row">3</th>
-                        <td>Larry</td>
-                        <td>the Bird</td>
-                    </tr>
-                </tbody>
-            </table>
-        </>
+                ))}
+            </tbody>
+        </table>
     );
 }
 
