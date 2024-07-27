@@ -1,17 +1,19 @@
 // CustomerList.jsx
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import Layout from '../components/Layout';
 import Table from '../components/Table';
 import LinkButton from '../components/LinkButton';
 
 const CustomerList = () => {
+    const navigate = useNavigate();
 
     const ActionButton = ({ id, action }) => {
         return <button className="btn-base btn" onClick={() => action(id)}>Read More</button>;
     };
 
     const loadDetails = (id) => {
-        alert(`Button clicked for row: ${JSON.stringify(id)}`);
+        navigate(`/customers/${id}`);
     };
 
     const columns = [
