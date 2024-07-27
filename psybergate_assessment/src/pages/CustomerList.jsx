@@ -7,7 +7,7 @@ import LinkButton from '../components/LinkButton';
 const CustomerList = () => {
     return (
         <Layout>
-            <div className="p-3">
+            <div className="p-3 pt-4">
                 <div className="items-space-between pb-3">
                     <h1>All Customers</h1>
                     <LinkButton text="Add Customer" href="./customers/new/details" />

@@ -3,8 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\user-pc\\source\\repos\\Psybergate_Assessment\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A06659EE-6AC3-457F-87BC-BD732D15CCB1}|Psybergate_Assessment\\psybergate_assessment.esproj|c:\\users\\user-pc\\source\\repos\\psybergate_assessment\\psybergate_assessment\\src\\pages\\newcustomeraddress.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{A06659EE-6AC3-457F-87BC-BD732D15CCB1}|Psybergate_Assessment\\psybergate_assessment.esproj|solutionrelative:psybergate_assessment\\src\\pages\\newcustomeraddress.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{A06659EE-6AC3-457F-87BC-BD732D15CCB1}|Psybergate_Assessment\\psybergate_assessment.esproj|c:\\users\\user-pc\\source\\repos\\psybergate_assessment\\psybergate_assessment\\src\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A06659EE-6AC3-457F-87BC-BD732D15CCB1}|Psybergate_Assessment\\psybergate_assessment.esproj|solutionrelative:psybergate_assessment\\src\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A06659EE-6AC3-457F-87BC-BD732D15CCB1}|Psybergate_Assessment\\psybergate_assessment.esproj|c:\\users\\user-pc\\source\\repos\\psybergate_assessment\\psybergate_assessment\\src\\components\\logo.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A06659EE-6AC3-457F-87BC-BD732D15CCB1}|Psybergate_Assessment\\psybergate_assessment.esproj|solutionrelative:psybergate_assessment\\src\\components\\logo.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A06659EE-6AC3-457F-87BC-BD732D15CCB1}|Psybergate_Assessment\\psybergate_assessment.esproj|c:\\users\\user-pc\\source\\repos\\psybergate_assessment\\psybergate_assessment\\src\\components\\header.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A06659EE-6AC3-457F-87BC-BD732D15CCB1}|Psybergate_Assessment\\psybergate_assessment.esproj|solutionrelative:psybergate_assessment\\src\\components\\header.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A06659EE-6AC3-457F-87BC-BD732D15CCB1}|Psybergate_Assessment\\psybergate_assessment.esproj|c:\\users\\user-pc\\source\\repos\\psybergate_assessment\\psybergate_assessment\\src\\components\\formheading.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A06659EE-6AC3-457F-87BC-BD732D15CCB1}|Psybergate_Assessment\\psybergate_assessment.esproj|solutionrelative:psybergate_assessment\\src\\components\\formheading.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A06659EE-6AC3-457F-87BC-BD732D15CCB1}|Psybergate_Assessment\\psybergate_assessment.esproj|c:\\users\\user-pc\\source\\repos\\psybergate_assessment\\psybergate_assessment\\src\\pages\\customerlist.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A06659EE-6AC3-457F-87BC-BD732D15CCB1}|Psybergate_Assessment\\psybergate_assessment.esproj|solutionrelative:psybergate_assessment\\src\\pages\\customerlist.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A06659EE-6AC3-457F-87BC-BD732D15CCB1}|Psybergate_Assessment\\psybergate_assessment.esproj|c:\\users\\user-pc\\source\\repos\\psybergate_assessment\\psybergate_assessment\\src\\main.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A06659EE-6AC3-457F-87BC-BD732D15CCB1}|Psybergate_Assessment\\psybergate_assessment.esproj|solutionrelative:psybergate_assessment\\src\\main.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A06659EE-6AC3-457F-87BC-BD732D15CCB1}|Psybergate_Assessment\\psybergate_assessment.esproj|c:\\users\\user-pc\\source\\repos\\psybergate_assessment\\psybergate_assessment\\src\\pages\\newcustomercomments.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A06659EE-6AC3-457F-87BC-BD732D15CCB1}|Psybergate_Assessment\\psybergate_assessment.esproj|solutionrelative:psybergate_assessment\\src\\pages\\newcustomercomments.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A06659EE-6AC3-457F-87BC-BD732D15CCB1}|Psybergate_Assessment\\psybergate_assessment.esproj|c:\\users\\user-pc\\source\\repos\\psybergate_assessment\\psybergate_assessment\\src\\components\\customercommentform.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
@@ -15,24 +39,16 @@
       "RelativeMoniker": "D:0:0:{A06659EE-6AC3-457F-87BC-BD732D15CCB1}|Psybergate_Assessment\\psybergate_assessment.esproj|solutionrelative:psybergate_assessment\\src\\components\\customeraddressform.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A06659EE-6AC3-457F-87BC-BD732D15CCB1}|Psybergate_Assessment\\psybergate_assessment.esproj|c:\\users\\user-pc\\source\\repos\\psybergate_assessment\\psybergate_assessment\\src\\pages\\newcustomercomments.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{A06659EE-6AC3-457F-87BC-BD732D15CCB1}|Psybergate_Assessment\\psybergate_assessment.esproj|solutionrelative:psybergate_assessment\\src\\pages\\newcustomercomments.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A06659EE-6AC3-457F-87BC-BD732D15CCB1}|Psybergate_Assessment\\psybergate_assessment.esproj|c:\\users\\user-pc\\source\\repos\\psybergate_assessment\\psybergate_assessment\\src\\pages\\newcustomerdetails.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{A06659EE-6AC3-457F-87BC-BD732D15CCB1}|Psybergate_Assessment\\psybergate_assessment.esproj|solutionrelative:psybergate_assessment\\src\\pages\\newcustomerdetails.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A06659EE-6AC3-457F-87BC-BD732D15CCB1}|Psybergate_Assessment\\psybergate_assessment.esproj|c:\\users\\user-pc\\source\\repos\\psybergate_assessment\\psybergate_assessment\\src\\components\\customerdetailform.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{A06659EE-6AC3-457F-87BC-BD732D15CCB1}|Psybergate_Assessment\\psybergate_assessment.esproj|solutionrelative:psybergate_assessment\\src\\components\\customerdetailform.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A06659EE-6AC3-457F-87BC-BD732D15CCB1}|Psybergate_Assessment\\psybergate_assessment.esproj|c:\\users\\user-pc\\source\\repos\\psybergate_assessment\\psybergate_assessment\\src\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{A06659EE-6AC3-457F-87BC-BD732D15CCB1}|Psybergate_Assessment\\psybergate_assessment.esproj|solutionrelative:psybergate_assessment\\src\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{A06659EE-6AC3-457F-87BC-BD732D15CCB1}|Psybergate_Assessment\\psybergate_assessment.esproj|c:\\users\\user-pc\\source\\repos\\psybergate_assessment\\psybergate_assessment\\src\\pages\\newcustomeraddress.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A06659EE-6AC3-457F-87BC-BD732D15CCB1}|Psybergate_Assessment\\psybergate_assessment.esproj|solutionrelative:psybergate_assessment\\src\\pages\\newcustomeraddress.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A06659EE-6AC3-457F-87BC-BD732D15CCB1}|Psybergate_Assessment\\psybergate_assessment.esproj|c:\\users\\user-pc\\source\\repos\\psybergate_assessment\\psybergate_assessment\\src\\components\\formheading.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{A06659EE-6AC3-457F-87BC-BD732D15CCB1}|Psybergate_Assessment\\psybergate_assessment.esproj|solutionrelative:psybergate_assessment\\src\\components\\formheading.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{A06659EE-6AC3-457F-87BC-BD732D15CCB1}|Psybergate_Assessment\\psybergate_assessment.esproj|c:\\users\\user-pc\\source\\repos\\psybergate_assessment\\psybergate_assessment\\src\\pages\\newcustomerdetails.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A06659EE-6AC3-457F-87BC-BD732D15CCB1}|Psybergate_Assessment\\psybergate_assessment.esproj|solutionrelative:psybergate_assessment\\src\\pages\\newcustomerdetails.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A06659EE-6AC3-457F-87BC-BD732D15CCB1}|Psybergate_Assessment\\psybergate_assessment.esproj|c:\\users\\user-pc\\source\\repos\\psybergate_assessment\\psybergate_assessment\\src\\components\\linkbutton.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
@@ -43,10 +59,6 @@
       "RelativeMoniker": "D:0:0:{A06659EE-6AC3-457F-87BC-BD732D15CCB1}|Psybergate_Assessment\\psybergate_assessment.esproj|solutionrelative:psybergate_assessment\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A06659EE-6AC3-457F-87BC-BD732D15CCB1}|Psybergate_Assessment\\psybergate_assessment.esproj|c:\\users\\user-pc\\source\\repos\\psybergate_assessment\\psybergate_assessment\\src\\pages\\customerlist.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{A06659EE-6AC3-457F-87BC-BD732D15CCB1}|Psybergate_Assessment\\psybergate_assessment.esproj|solutionrelative:psybergate_assessment\\src\\pages\\customerlist.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A06659EE-6AC3-457F-87BC-BD732D15CCB1}|Psybergate_Assessment\\psybergate_assessment.esproj|c:\\users\\user-pc\\source\\repos\\psybergate_assessment\\psybergate_assessment\\src\\app.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{A06659EE-6AC3-457F-87BC-BD732D15CCB1}|Psybergate_Assessment\\psybergate_assessment.esproj|solutionrelative:psybergate_assessment\\src\\app.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
@@ -55,20 +67,8 @@
       "RelativeMoniker": "D:0:0:{A06659EE-6AC3-457F-87BC-BD732D15CCB1}|Psybergate_Assessment\\psybergate_assessment.esproj|solutionrelative:psybergate_assessment\\src\\approutes.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A06659EE-6AC3-457F-87BC-BD732D15CCB1}|Psybergate_Assessment\\psybergate_assessment.esproj|c:\\users\\user-pc\\source\\repos\\psybergate_assessment\\psybergate_assessment\\src\\main.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{A06659EE-6AC3-457F-87BC-BD732D15CCB1}|Psybergate_Assessment\\psybergate_assessment.esproj|solutionrelative:psybergate_assessment\\src\\main.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A06659EE-6AC3-457F-87BC-BD732D15CCB1}|Psybergate_Assessment\\psybergate_assessment.esproj|c:\\users\\user-pc\\source\\repos\\psybergate_assessment\\psybergate_assessment\\src\\components\\logo.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{A06659EE-6AC3-457F-87BC-BD732D15CCB1}|Psybergate_Assessment\\psybergate_assessment.esproj|solutionrelative:psybergate_assessment\\src\\components\\logo.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A06659EE-6AC3-457F-87BC-BD732D15CCB1}|Psybergate_Assessment\\psybergate_assessment.esproj|c:\\users\\user-pc\\source\\repos\\psybergate_assessment\\psybergate_assessment\\src\\components\\table.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{A06659EE-6AC3-457F-87BC-BD732D15CCB1}|Psybergate_Assessment\\psybergate_assessment.esproj|solutionrelative:psybergate_assessment\\src\\components\\table.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A06659EE-6AC3-457F-87BC-BD732D15CCB1}|Psybergate_Assessment\\psybergate_assessment.esproj|c:\\users\\user-pc\\source\\repos\\psybergate_assessment\\psybergate_assessment\\src\\components\\header.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{A06659EE-6AC3-457F-87BC-BD732D15CCB1}|Psybergate_Assessment\\psybergate_assessment.esproj|solutionrelative:psybergate_assessment\\src\\components\\header.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A06659EE-6AC3-457F-87BC-BD732D15CCB1}|Psybergate_Assessment\\psybergate_assessment.esproj|c:\\users\\user-pc\\source\\repos\\psybergate_assessment\\psybergate_assessment\\src\\components\\layout.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
@@ -81,10 +81,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{A06659EE-6AC3-457F-87BC-BD732D15CCB1}|Psybergate_Assessment\\psybergate_assessment.esproj|c:\\users\\user-pc\\source\\repos\\psybergate_assessment\\psybergate_assessment\\src\\pages\\pagenotfound.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{A06659EE-6AC3-457F-87BC-BD732D15CCB1}|Psybergate_Assessment\\psybergate_assessment.esproj|solutionrelative:psybergate_assessment\\src\\pages\\pagenotfound.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A06659EE-6AC3-457F-87BC-BD732D15CCB1}|Psybergate_Assessment\\psybergate_assessment.esproj|c:\\users\\user-pc\\source\\repos\\psybergate_assessment\\psybergate_assessment\\src\\components\\footer.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{A06659EE-6AC3-457F-87BC-BD732D15CCB1}|Psybergate_Assessment\\psybergate_assessment.esproj|solutionrelative:psybergate_assessment\\src\\components\\footer.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     }
   ],
   "DocumentGroupContainers": [
@@ -94,115 +90,100 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "NewCustomerComments.jsx",
-              "DocumentMoniker": "C:\\Users\\user-pc\\source\\repos\\Psybergate_Assessment\\psybergate_assessment\\src\\pages\\NewCustomerComments.jsx",
-              "RelativeDocumentMoniker": "psybergate_assessment\\src\\pages\\NewCustomerComments.jsx",
-              "ToolTip": "C:\\Users\\user-pc\\source\\repos\\Psybergate_Assessment\\psybergate_assessment\\src\\pages\\NewCustomerComments.jsx",
-              "RelativeToolTip": "psybergate_assessment\\src\\pages\\NewCustomerComments.jsx",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2024-07-14T16:56:18.112Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "NewCustomerAddress.jsx",
-              "DocumentMoniker": "C:\\Users\\user-pc\\source\\repos\\Psybergate_Assessment\\psybergate_assessment\\src\\pages\\NewCustomerAddress.jsx",
-              "RelativeDocumentMoniker": "psybergate_assessment\\src\\pages\\NewCustomerAddress.jsx",
-              "ToolTip": "C:\\Users\\user-pc\\source\\repos\\Psybergate_Assessment\\psybergate_assessment\\src\\pages\\NewCustomerAddress.jsx",
-              "RelativeToolTip": "psybergate_assessment\\src\\pages\\NewCustomerAddress.jsx",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAA4AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2024-07-14T16:56:26.737Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "CustomerAddressForm.jsx",
-              "DocumentMoniker": "C:\\Users\\user-pc\\source\\repos\\Psybergate_Assessment\\psybergate_assessment\\src\\components\\CustomerAddressForm.jsx",
-              "RelativeDocumentMoniker": "psybergate_assessment\\src\\components\\CustomerAddressForm.jsx",
-              "ToolTip": "C:\\Users\\user-pc\\source\\repos\\Psybergate_Assessment\\psybergate_assessment\\src\\components\\CustomerAddressForm.jsx",
-              "RelativeToolTip": "psybergate_assessment\\src\\components\\CustomerAddressForm.jsx",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAoAAAA",
+              "Title": "Header.jsx",
+              "DocumentMoniker": "C:\\Users\\user-pc\\source\\repos\\Psybergate_Assessment\\psybergate_assessment\\src\\components\\Header.jsx",
+              "RelativeDocumentMoniker": "psybergate_assessment\\src\\components\\Header.jsx",
+              "ToolTip": "C:\\Users\\user-pc\\source\\repos\\Psybergate_Assessment\\psybergate_assessment\\src\\components\\Header.jsx",
+              "RelativeToolTip": "psybergate_assessment\\src\\components\\Header.jsx",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAA4AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2024-07-14T17:30:13.328Z",
+              "WhenOpened": "2024-07-27T17:24:59.652Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CustomerCommentForm.jsx",
-              "DocumentMoniker": "C:\\Users\\user-pc\\source\\repos\\Psybergate_Assessment\\psybergate_assessment\\src\\components\\CustomerCommentForm.jsx",
-              "RelativeDocumentMoniker": "psybergate_assessment\\src\\components\\CustomerCommentForm.jsx",
-              "ToolTip": "C:\\Users\\user-pc\\source\\repos\\Psybergate_Assessment\\psybergate_assessment\\src\\components\\CustomerCommentForm.jsx",
-              "RelativeToolTip": "psybergate_assessment\\src\\components\\CustomerCommentForm.jsx",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAABEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2024-07-14T17:31:15.721Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "NewCustomerDetails.jsx",
-              "DocumentMoniker": "C:\\Users\\user-pc\\source\\repos\\Psybergate_Assessment\\Psybergate_Assessment\\src\\pages\\NewCustomerDetails.jsx",
-              "RelativeDocumentMoniker": "Psybergate_Assessment\\src\\pages\\NewCustomerDetails.jsx",
-              "ToolTip": "C:\\Users\\user-pc\\source\\repos\\Psybergate_Assessment\\Psybergate_Assessment\\src\\pages\\NewCustomerDetails.jsx",
-              "RelativeToolTip": "Psybergate_Assessment\\src\\pages\\NewCustomerDetails.jsx",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2024-07-14T15:52:22.003Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 3,
               "Title": "FormHeading.jsx",
               "DocumentMoniker": "C:\\Users\\user-pc\\source\\repos\\Psybergate_Assessment\\psybergate_assessment\\src\\components\\FormHeading.jsx",
               "RelativeDocumentMoniker": "psybergate_assessment\\src\\components\\FormHeading.jsx",
               "ToolTip": "C:\\Users\\user-pc\\source\\repos\\Psybergate_Assessment\\psybergate_assessment\\src\\components\\FormHeading.jsx",
               "RelativeToolTip": "psybergate_assessment\\src\\components\\FormHeading.jsx",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAMAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAA6wAMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
               "WhenOpened": "2024-07-14T17:16:51.07Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
+              "Title": "App.css",
+              "DocumentMoniker": "C:\\Users\\user-pc\\source\\repos\\Psybergate_Assessment\\psybergate_assessment\\src\\App.css",
+              "RelativeDocumentMoniker": "psybergate_assessment\\src\\App.css",
+              "ToolTip": "C:\\Users\\user-pc\\source\\repos\\Psybergate_Assessment\\psybergate_assessment\\src\\App.css",
+              "RelativeToolTip": "psybergate_assessment\\src\\App.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-07-14T12:18:54.824Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "CustomerDetailForm.jsx",
-              "DocumentMoniker": "C:\\Users\\user-pc\\source\\repos\\Psybergate_Assessment\\Psybergate_Assessment\\src\\components\\CustomerDetailForm.jsx",
-              "RelativeDocumentMoniker": "Psybergate_Assessment\\src\\components\\CustomerDetailForm.jsx",
-              "ToolTip": "C:\\Users\\user-pc\\source\\repos\\Psybergate_Assessment\\Psybergate_Assessment\\src\\components\\CustomerDetailForm.jsx",
-              "RelativeToolTip": "Psybergate_Assessment\\src\\components\\CustomerDetailForm.jsx",
+              "DocumentMoniker": "C:\\Users\\user-pc\\source\\repos\\Psybergate_Assessment\\psybergate_assessment\\src\\components\\CustomerDetailForm.jsx",
+              "RelativeDocumentMoniker": "psybergate_assessment\\src\\components\\CustomerDetailForm.jsx",
+              "ToolTip": "C:\\Users\\user-pc\\source\\repos\\Psybergate_Assessment\\psybergate_assessment\\src\\components\\CustomerDetailForm.jsx",
+              "RelativeToolTip": "psybergate_assessment\\src\\components\\CustomerDetailForm.jsx",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAA0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2024-07-14T17:17:08.608Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-14T17:17:08.608Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "AppRoutes.jsx",
-              "DocumentMoniker": "C:\\Users\\user-pc\\source\\repos\\Psybergate_Assessment\\Psybergate_Assessment\\src\\AppRoutes.jsx",
-              "RelativeDocumentMoniker": "Psybergate_Assessment\\src\\AppRoutes.jsx",
-              "ToolTip": "C:\\Users\\user-pc\\source\\repos\\Psybergate_Assessment\\Psybergate_Assessment\\src\\AppRoutes.jsx",
-              "RelativeToolTip": "Psybergate_Assessment\\src\\AppRoutes.jsx",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAnAAAA",
+              "DocumentIndex": 4,
+              "Title": "CustomerList.jsx",
+              "DocumentMoniker": "C:\\Users\\user-pc\\source\\repos\\Psybergate_Assessment\\psybergate_assessment\\src\\pages\\CustomerList.jsx",
+              "RelativeDocumentMoniker": "psybergate_assessment\\src\\pages\\CustomerList.jsx",
+              "ToolTip": "C:\\Users\\user-pc\\source\\repos\\Psybergate_Assessment\\psybergate_assessment\\src\\pages\\CustomerList.jsx",
+              "RelativeToolTip": "psybergate_assessment\\src\\pages\\CustomerList.jsx",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2024-07-14T15:55:52.525Z",
+              "WhenOpened": "2024-07-14T16:28:55.092Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 1,
+              "Title": "Logo.jsx",
+              "DocumentMoniker": "C:\\Users\\user-pc\\source\\repos\\Psybergate_Assessment\\psybergate_assessment\\src\\components\\Logo.jsx",
+              "RelativeDocumentMoniker": "psybergate_assessment\\src\\components\\Logo.jsx",
+              "ToolTip": "C:\\Users\\user-pc\\source\\repos\\Psybergate_Assessment\\psybergate_assessment\\src\\components\\Logo.jsx",
+              "RelativeToolTip": "psybergate_assessment\\src\\components\\Logo.jsx",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2024-07-14T20:45:15.555Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CustomerCommentForm.jsx",
+              "DocumentMoniker": "C:\\Users\\user-pc\\source\\repos\\Psybergate_Assessment\\psybergate_assessment\\src\\components\\CustomerCommentForm.jsx",
+              "RelativeDocumentMoniker": "psybergate_assessment\\src\\components\\CustomerCommentForm.jsx",
+              "ToolTip": "C:\\Users\\user-pc\\source\\repos\\Psybergate_Assessment\\psybergate_assessment\\src\\components\\CustomerCommentForm.jsx",
+              "RelativeToolTip": "psybergate_assessment\\src\\components\\CustomerCommentForm.jsx",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAQAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2024-07-14T17:31:15.721Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "main.jsx",
               "DocumentMoniker": "C:\\Users\\user-pc\\source\\repos\\Psybergate_Assessment\\psybergate_assessment\\src\\main.jsx",
               "RelativeDocumentMoniker": "psybergate_assessment\\src\\main.jsx",
@@ -216,45 +197,67 @@
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "App.css",
-              "DocumentMoniker": "C:\\Users\\user-pc\\source\\repos\\Psybergate_Assessment\\psybergate_assessment\\src\\App.css",
-              "RelativeDocumentMoniker": "psybergate_assessment\\src\\App.css",
-              "ToolTip": "C:\\Users\\user-pc\\source\\repos\\Psybergate_Assessment\\psybergate_assessment\\src\\App.css",
-              "RelativeToolTip": "psybergate_assessment\\src\\App.css",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAAABYAAAACAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-07-14T12:18:54.824Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Header.jsx",
-              "DocumentMoniker": "C:\\Users\\user-pc\\source\\repos\\Psybergate_Assessment\\psybergate_assessment\\src\\components\\Header.jsx",
-              "RelativeDocumentMoniker": "psybergate_assessment\\src\\components\\Header.jsx",
-              "ToolTip": "C:\\Users\\user-pc\\source\\repos\\Psybergate_Assessment\\psybergate_assessment\\src\\components\\Header.jsx",
-              "RelativeToolTip": "psybergate_assessment\\src\\components\\Header.jsx",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAmAAAA",
+              "Title": "NewCustomerComments.jsx",
+              "DocumentMoniker": "C:\\Users\\user-pc\\source\\repos\\Psybergate_Assessment\\psybergate_assessment\\src\\pages\\NewCustomerComments.jsx",
+              "RelativeDocumentMoniker": "psybergate_assessment\\src\\pages\\NewCustomerComments.jsx",
+              "ToolTip": "C:\\Users\\user-pc\\source\\repos\\Psybergate_Assessment\\psybergate_assessment\\src\\pages\\NewCustomerComments.jsx",
+              "RelativeToolTip": "psybergate_assessment\\src\\pages\\NewCustomerComments.jsx",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2024-07-14T12:26:52.007Z",
+              "WhenOpened": "2024-07-14T16:56:18.112Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Logo.jsx",
-              "DocumentMoniker": "C:\\Users\\user-pc\\source\\repos\\Psybergate_Assessment\\psybergate_assessment\\src\\components\\Logo.jsx",
-              "RelativeDocumentMoniker": "psybergate_assessment\\src\\components\\Logo.jsx",
-              "ToolTip": "C:\\Users\\user-pc\\source\\repos\\Psybergate_Assessment\\psybergate_assessment\\src\\components\\Logo.jsx",
-              "RelativeToolTip": "psybergate_assessment\\src\\components\\Logo.jsx",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAwAAAA",
+              "DocumentIndex": 8,
+              "Title": "CustomerAddressForm.jsx",
+              "DocumentMoniker": "C:\\Users\\user-pc\\source\\repos\\Psybergate_Assessment\\psybergate_assessment\\src\\components\\CustomerAddressForm.jsx",
+              "RelativeDocumentMoniker": "psybergate_assessment\\src\\components\\CustomerAddressForm.jsx",
+              "ToolTip": "C:\\Users\\user-pc\\source\\repos\\Psybergate_Assessment\\psybergate_assessment\\src\\components\\CustomerAddressForm.jsx",
+              "RelativeToolTip": "psybergate_assessment\\src\\components\\CustomerAddressForm.jsx",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2024-07-14T20:45:15.555Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-14T17:30:13.328Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
+              "Title": "NewCustomerAddress.jsx",
+              "DocumentMoniker": "C:\\Users\\user-pc\\source\\repos\\Psybergate_Assessment\\psybergate_assessment\\src\\pages\\NewCustomerAddress.jsx",
+              "RelativeDocumentMoniker": "psybergate_assessment\\src\\pages\\NewCustomerAddress.jsx",
+              "ToolTip": "C:\\Users\\user-pc\\source\\repos\\Psybergate_Assessment\\psybergate_assessment\\src\\pages\\NewCustomerAddress.jsx",
+              "RelativeToolTip": "psybergate_assessment\\src\\pages\\NewCustomerAddress.jsx",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2024-07-14T16:56:26.737Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "NewCustomerDetails.jsx",
+              "DocumentMoniker": "C:\\Users\\user-pc\\source\\repos\\Psybergate_Assessment\\psybergate_assessment\\src\\pages\\NewCustomerDetails.jsx",
+              "RelativeDocumentMoniker": "psybergate_assessment\\src\\pages\\NewCustomerDetails.jsx",
+              "ToolTip": "C:\\Users\\user-pc\\source\\repos\\Psybergate_Assessment\\psybergate_assessment\\src\\pages\\NewCustomerDetails.jsx",
+              "RelativeToolTip": "psybergate_assessment\\src\\pages\\NewCustomerDetails.jsx",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2024-07-14T15:52:22.003Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AppRoutes.jsx",
+              "DocumentMoniker": "C:\\Users\\user-pc\\source\\repos\\Psybergate_Assessment\\psybergate_assessment\\src\\AppRoutes.jsx",
+              "RelativeDocumentMoniker": "psybergate_assessment\\src\\AppRoutes.jsx",
+              "ToolTip": "C:\\Users\\user-pc\\source\\repos\\Psybergate_Assessment\\psybergate_assessment\\src\\AppRoutes.jsx",
+              "RelativeToolTip": "psybergate_assessment\\src\\AppRoutes.jsx",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2024-07-14T15:55:52.525Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "index.html",
               "DocumentMoniker": "C:\\Users\\user-pc\\source\\repos\\Psybergate_Assessment\\psybergate_assessment\\index.html",
               "RelativeDocumentMoniker": "psybergate_assessment\\index.html",
@@ -262,12 +265,11 @@
               "RelativeToolTip": "psybergate_assessment\\index.html",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAACxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-07-14T21:11:51.335Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-14T21:11:51.335Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 12,
               "Title": "LinkButton.jsx",
               "DocumentMoniker": "C:\\Users\\user-pc\\source\\repos\\Psybergate_Assessment\\psybergate_assessment\\src\\components\\LinkButton.jsx",
               "RelativeDocumentMoniker": "psybergate_assessment\\src\\components\\LinkButton.jsx",
@@ -275,12 +277,11 @@
               "RelativeToolTip": "psybergate_assessment\\src\\components\\LinkButton.jsx",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2024-07-14T19:47:17.659Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-14T19:47:17.659Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 14,
               "Title": "App.jsx",
               "DocumentMoniker": "C:\\Users\\user-pc\\source\\repos\\Psybergate_Assessment\\psybergate_assessment\\src\\App.jsx",
               "RelativeDocumentMoniker": "psybergate_assessment\\src\\App.jsx",
@@ -288,21 +289,7 @@
               "RelativeToolTip": "psybergate_assessment\\src\\App.jsx",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2024-07-14T12:22:18.175Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "CustomerList.jsx",
-              "DocumentMoniker": "C:\\Users\\user-pc\\source\\repos\\Psybergate_Assessment\\psybergate_assessment\\src\\pages\\CustomerList.jsx",
-              "RelativeDocumentMoniker": "psybergate_assessment\\src\\pages\\CustomerList.jsx",
-              "ToolTip": "C:\\Users\\user-pc\\source\\repos\\Psybergate_Assessment\\psybergate_assessment\\src\\pages\\CustomerList.jsx",
-              "RelativeToolTip": "psybergate_assessment\\src\\pages\\CustomerList.jsx",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2024-07-14T16:28:55.092Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-14T12:22:18.175Z"
             },
             {
               "$type": "Document",
@@ -314,12 +301,11 @@
               "RelativeToolTip": "psybergate_assessment\\src\\components\\Layout.jsx",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2024-07-14T17:43:27.507Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-14T17:43:27.507Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "Table.jsx",
               "DocumentMoniker": "C:\\Users\\user-pc\\source\\repos\\Psybergate_Assessment\\psybergate_assessment\\src\\components\\Table.jsx",
               "RelativeDocumentMoniker": "psybergate_assessment\\src\\components\\Table.jsx",
@@ -327,8 +313,7 @@
               "RelativeToolTip": "psybergate_assessment\\src\\components\\Table.jsx",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2024-07-14T12:45:53.392Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-14T12:45:53.392Z"
             },
             {
               "$type": "Document",
@@ -340,8 +325,7 @@
               "RelativeToolTip": "psybergate_assessment\\src\\components\\Button.jsx",
               "ViewState": "AQIAAAAAAAAAAAAAAAAqwAQAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2024-07-14T12:46:30.038Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-14T12:46:30.038Z"
             },
             {
               "$type": "Document",
@@ -353,21 +337,7 @@
               "RelativeToolTip": "psybergate_assessment\\src\\pages\\PageNotFound.jsx",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2024-07-14T15:54:31.93Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "Footer.jsx",
-              "DocumentMoniker": "C:\\Users\\user-pc\\source\\repos\\Psybergate_Assessment\\psybergate_assessment\\src\\components\\Footer.jsx",
-              "RelativeDocumentMoniker": "psybergate_assessment\\src\\components\\Footer.jsx",
-              "ToolTip": "C:\\Users\\user-pc\\source\\repos\\Psybergate_Assessment\\psybergate_assessment\\src\\components\\Footer.jsx",
-              "RelativeToolTip": "psybergate_assessment\\src\\components\\Footer.jsx",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAPAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2024-07-14T12:44:10.205Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-14T15:54:31.93Z"
             }
           ]
         }

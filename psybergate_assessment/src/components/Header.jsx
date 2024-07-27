@@ -3,7 +3,7 @@ function Header() {
     return (
         <>
             <div id="header">
-                <nav className="navbar justify-content-between p-0 pt-1">
+                <nav className="navbar justify-content-between p-0">
                     <div className="ps-3">
                         <a className="" href="./customers">
                             <Logo />
@@ -11,7 +11,7 @@ function Header() {
                         </a>
                     </div>
                     
-                    <div className="d-flex flex-row">
+                    <div className="d-flex flex-row mt-2">
                         <a className="p-2 nav-button" href="..">All Customers</a>
                        <a className="p-2 pe-3 nav-button" href="../customers/new/details">Add Customer</a>
                     </div>
