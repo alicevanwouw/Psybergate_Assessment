@@ -31,11 +31,11 @@ h1 {
 h3 {
     font-family: 'Lora', serif;
 }
+
 .h3-underline {
     border-bottom: 2px solid #86adad;
     padding-bottom: 10px;
 }
-
 
 #header, #footer {
     height: 5vh;
@@ -92,8 +92,21 @@ h3 {
 
 .btn-base:hover {
     background-color: #718f8f !important;
-    transform: scale(1.05); /* Slightly enlarges the button */
+    transform: scale(1.05); 
 }
+
+.table-btn {
+    background-color: transparent !important;
+    border: 1px solid #86adad !important;
+    color: #86adad !important;
+}
+
+    .table-btn:hover {
+        background-color: transparent !important;
+        color: #718f8f !important;
+        transform: scale(1.05);
+        border-color: #718f8f !important;
+    }
 
 
 

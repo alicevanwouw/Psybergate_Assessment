@@ -8,7 +8,7 @@ const CustomerList = () => {
     const { navigateToPage } = useNavigation();
 
     const ActionButton = ({ row }) => {
-        return <button className="btn-base btn" onClick={() => loadDetails(row)}>Read More</button>;
+        return <button className="btn-base btn table-btn" onClick={() => loadDetails(row)}>Read More</button>;
     };
 
     const loadDetails = (row) => {

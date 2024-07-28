@@ -5,7 +5,12 @@ function Table({ columns, data }) {
             <thead>
                 <tr>
                     {columns.map((column, index) => (
-                        <th key={index}>{column.displayName}</th>
+                       
+                         column.key !== "Action" ? (
+                            <th key={index}>{column.displayName}</th>
+                        ) : (
+                            <th className="items-end pe-3" style={{ border: 'none' }} key={index}>{column.displayName}</th>
+                        )
                     ))}
                 </tr>
             </thead>
