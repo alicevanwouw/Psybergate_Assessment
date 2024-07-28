@@ -10,7 +10,7 @@ const CustomerDetails = () => {
     if (!customer) {
         return (
             <Layout>
-                <div>                 
+                <div>
                     <p>No Customer Information</p>
                 </div>
             </Layout>
@@ -19,13 +19,17 @@ const CustomerDetails = () => {
 
     return (
         <Layout>
-            <div>
+            <div className="p-3 pt-4">
                 <h1>Customer Details</h1>
-                <p><strong>Name:</strong> {customer.Name}</p>
-                <p><strong>Surname:</strong> {customer.Surname}</p>
-                <p><strong>Cell Number:</strong> {customer.CellNumber}</p>
+                <div className="p-3 pt-4">
+                    {Object.entries(customer).map(([key, value]) => (
+                        <p key={key}>
+                            <strong>{key.replace(/([A-Z])/g, ' $1').replace(/^./, str => str.toUpperCase())}:</strong> {value}
+                        </p>
+                    ))}
+                </div>
             </div>
-         </Layout>
+        </Layout>
     );
 }
 

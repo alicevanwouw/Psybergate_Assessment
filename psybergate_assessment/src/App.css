@@ -25,7 +25,7 @@ thead, tbody, tfoot, tr, td, th {
 
 h1 {
     font-family: 'Lora', serif;
-    font-size: 30px;
+    font-size: 30px !important;
 }
 
 h3 {
@@ -64,6 +64,14 @@ h3 {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
+    align-items: center;
+}
+
+.items-end {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: end;
     align-items: center;
 }
 

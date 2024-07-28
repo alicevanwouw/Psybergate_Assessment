@@ -16,7 +16,7 @@ function Table({ columns, data }) {
                             column.key !== "Action" ? (
                                 <td key={colIndex}>{row[column.key]}</td>
                             ) : (
-                                <td key={colIndex}>{row.Action(row.Id)}</td>
+                                <td className="items-end" key={colIndex}>{row.Action(row.Id)}</td>
                             )
                         ))}
                     </tr>

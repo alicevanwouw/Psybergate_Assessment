@@ -1,13 +1,15 @@
+// useNavigation.js
 import { useNavigate } from 'react-router-dom';
 
-const UseNavigation = () => {
+const useNavigation = () => {
     const navigate = useNavigate();
 
-    const navigateToPage = (link) => {
-        navigate(link);
+    const navigateToPage = (path, state) => {
+        console.log('Navigating to:', path, 'with state:', state); 
+        navigate(path, { state });
     };
 
     return { navigateToPage };
 };
 
-export default UseNavigation;
+export default useNavigation;

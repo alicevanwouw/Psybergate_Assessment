@@ -12,7 +12,8 @@ const CustomerList = () => {
     };
 
     const loadDetails = (row) => {
-        navigateToPage(`/customers/${row.Id}`, { state: { customer: row } });
+        console.log('Loading details for row:', row); // Debugging log
+        navigateToPage(`/customers/${row.Id}`, { customer: row });
     };
 
     const columns = [
@@ -22,15 +23,13 @@ const CustomerList = () => {
         { key: 'Action', displayName: 'Action', type: "button" }
     ];
 
-    let data = undefined;
+    let data = [
+        { Id: 1, Name: 'Bob', Surname: 'Bobson', CellNumber: '0831234567' },
+        { Id: 2, Name: 'Bob', Surname: 'Bobson', CellNumber: '0831234567' },
+        { Id: 3, Name: 'Bob', Surname: 'Bobson', CellNumber: '0831234567' }
+    ];
 
-    data = [
-         { Id: 1, Name: 'Bob', Surname: 'Bobson', CellNumber: '0831234567' },
-         { Id: 2, Name: 'Bob', Surname: 'Bobson', CellNumber: '0831234567' },
-         { Id: 3, Name: 'Bob', Surname: 'Bobson', CellNumber: '0831234567' }
-     ];
-
-    const heading = `All Customers (${data ? data.length : 0})`;
+    const heading = `All Customers (${data.length})`;
 
     return (
         <Layout>
