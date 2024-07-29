@@ -2,10 +2,13 @@
 import React from 'react';
 import Layout from '../components/Layout';
 import { useLocation } from 'react-router-dom';
+import useNavigation from '../hooks/useNavigation';
+import LinkButton from '../components/LinkButton';
 
 const CustomerDetails = () => {
     const location = useLocation();
     const customer = location.state?.customer;
+    const { navigateToPage } = useNavigation();
 
     if (!customer) {
         return (
@@ -27,6 +30,9 @@ const CustomerDetails = () => {
                             <strong>{key.replace(/([A-Z])/g, ' $1').replace(/^./, str => str.toUpperCase())}:</strong> {value}
                         </p>
                     ))}
+                </div>
+                <div className="pt-3 items-end">
+                    <LinkButton text="Back" onClick={() => navigateToPage("/customers")} />
                 </div>
             </div>
         </Layout>

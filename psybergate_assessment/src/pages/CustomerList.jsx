@@ -3,6 +3,7 @@ import useNavigation from '../hooks/useNavigation';
 import Layout from '../components/Layout';
 import Table from '../components/Table';
 import LinkButton from '../components/LinkButton';
+import addIcon from '../assets/icons/add_icon.svg';
 
 const CustomerList = () => {
     const { navigateToPage } = useNavigation();
@@ -36,7 +37,7 @@ const CustomerList = () => {
             <div className="p-3 pt-4">
                 <div className="items-space-between pb-3">
                     <h1>{heading}</h1>
-                    <LinkButton text="Add Customer" onClick={() => navigateToPage("/customers/new/details")} />
+                    <LinkButton text="Add Customer" onClick={() => navigateToPage("/customers/new/details")} icon={addIcon} />
                 </div>
                 {
                     !data || data.length === 0 ? (

@@ -1,4 +1,4 @@
-import LogoPng from '../assets/sample-logo-light.png';
+import LogoPng from '../assets/images/sample-logo-light.png';
 
 const Logo = () => {
     return (
