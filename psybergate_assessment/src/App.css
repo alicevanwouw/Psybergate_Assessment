@@ -1,0 +1,119 @@
+body {
+    background-color: #eeeeee !important;
+    font-family: 'Roboto', sans-serif !important;
+    color: #484848 !important;
+}
+
+.logo {
+    height: 30px;
+    vertical-align: sub;
+}
+
+.table {
+    --bs-table-bg: transparent !important;
+    --bs-table-color: #484848 !important;
+}
+
+thead {
+    border-bottom: 2px solid #86adad !important;
+    border-top: 2px solid #86adad !important;
+}
+
+thead, tbody, tfoot, tr, td, th {
+    padding-left: 20px !important;
+}
+
+h1 {
+    font-family: 'Lora', serif;
+    font-size: 30px !important;
+}
+
+h3 {
+    font-family: 'Lora', serif;
+}
+
+.h3-underline {
+    border-bottom: 2px solid #86adad;
+    padding-bottom: 10px;
+}
+
+#header, #footer {
+    height: 5vh;
+    width: 100vw;
+    background-color: #b8d1d1;
+}
+
+#header {
+
+}
+
+#footer {
+    position: fixed;
+    bottom: 0;
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-text {
+    font-size: 16px; 
+    margin: auto;
+}
+
+.items-space-between {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.items-end {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: end;
+    align-items: center;
+}
+
+.nav-button {
+    text-decoration: none;
+    color: inherit;
+    font-weight: 500;
+}
+
+.btn-base {
+    color: white !important;
+    background-color: #86adad!important;
+}
+
+.btn-base:hover {
+    background-color: #718f8f !important;
+    transform: scale(1.05); 
+}
+
+.table-btn {
+    background-color: transparent !important;
+    border: 1px solid #86adad !important;
+    color: #86adad !important;
+}
+
+.table-btn:hover {
+    background-color: transparent !important;
+    color: #718f8f !important;
+    transform: scale(1.05);
+    border-color: #718f8f !important;
+}
+
+.icon-class {
+    margin-right: 8px;
+    width: 20px;
+    height: 20px;
+    vertical-align: sub;
+}
+
+
+
