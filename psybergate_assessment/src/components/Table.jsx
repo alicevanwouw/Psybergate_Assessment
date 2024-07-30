@@ -22,8 +22,8 @@ function Table({ columns, data }) {
                                 <td key={colIndex}>{row[column.key]}</td>
                             ) : (
                                     <td  key={colIndex}>
-                                        <div class="grid-container">
-                                            <div class="grid-item-right">{row.Action(row.Id)}</div>
+                                        <div className="grid-container">
+                                            <div className="grid-item-right">{row.Action(row.Id)}</div>
                                         </div>                                       
                                     </td>
                             )

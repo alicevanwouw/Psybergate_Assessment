@@ -9,6 +9,7 @@
     <BuildOutputFolder>$(MSBuildProjectDirectory)\dist</BuildOutputFolder>
   </PropertyGroup>
   <ItemGroup>
-    <Folder Include="src\controllers\" />
+    <None Remove="src\controllers\**" />
+    <TypeScriptConfiguration Remove="src\controllers\**" />
   </ItemGroup>
 </Project>
