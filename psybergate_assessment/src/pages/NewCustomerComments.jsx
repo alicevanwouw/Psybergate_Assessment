@@ -11,6 +11,41 @@ const NewCustomerComments = () => {
         navigate(link);
     };
 
+    const handleSubmit = async (data) => {
+        try {
+            const response = await fetch('https://localhost:7199/api/Customer', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(data)
+            });
+
+            if (!response.ok) {
+                throw new Error('Error while creating new customer');
+            }
+           
+            //reset the form data
+            setFormData({
+                firstName: '',
+                lastName: '',
+                cellPhone: '',
+                physicalAddressl1: '',
+                physicalAddressl2: '',
+                physicalAddressl3: '',
+                physicalAddressl4: '',
+                postalAddressl1: '',
+                postalAddressl2: '',
+                postalAddressl3: '',
+                postalAddressl4: '',
+                comments: ''
+            });
+
+        } catch (error) {
+            console.error('Error submitting form:', error);
+        }
+    };
+
     return (
         <>
             <Layout>
@@ -19,7 +54,7 @@ const NewCustomerComments = () => {
                     <CustomerCommentForm />
                     <div className="pt-3 items-space-between">
                         <LinkButton text="Back" onClick={() => navigateToPage("/customers/new/address")} />
-                        <LinkButton text="Submit" />
+                        <LinkButton text="Submit" onClick={() => handleSubmit(formData)} />
                     </div>
                 </div>
             </Layout>   
