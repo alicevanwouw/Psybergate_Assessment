@@ -4,6 +4,7 @@ import Layout from '../components/Layout';
 import Table from '../components/Table';
 import LinkButton from '../components/LinkButton';
 import addIcon from '../assets/icons/add_icon.svg';
+import Fetch from '../components/Fetch'
 
 const CustomerList = () => {
     const { navigateToPage } = useNavigation();
@@ -47,6 +48,7 @@ const CustomerList = () => {
                     )
                 }
             </div>
+            
         </Layout>
     );
 }
