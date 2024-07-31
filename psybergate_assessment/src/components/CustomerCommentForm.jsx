@@ -11,9 +11,9 @@ function CustomerCommentForm() {
         <>
             <form>
                 <div className="form-group mt-4">
-                    <label for="additionalComments" className="ps-1">Additional Comments</label>
+                    <label htmlFor="additionalComments" className="ps-1">Additional Comments</label>
                     <textarea
-                        class="form-control"
+                        className="form-control"
                         id="comments"
                         rows="4"
                         onChange={handleChange}

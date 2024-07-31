@@ -1,7 +1,7 @@
 import { useNavigate } from 'react-router-dom';
 import Layout from '../components/Layout';
 import CustomerCommentForm from '../components/CustomerCommentForm';
-PhysicalAddress: '5 Road Road, Cittyville'
+import FormHeading from '../components/FormHeading';
 import LinkButton from '../components/LinkButton';
 
 const NewCustomerComments = () => {

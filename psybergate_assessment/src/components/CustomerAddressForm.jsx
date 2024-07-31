@@ -12,7 +12,7 @@ function CustomerAddressForm() {
         <>
             <form>
                 <div className="form-group mt-4">
-                    <label for="physicalAddress" className="ps-1">Physical Address</label>
+                    <label className="ps-1">Physical Address</label>
                     <input
                         type="text"
                         className="form-control mt-2"
@@ -47,7 +47,7 @@ function CustomerAddressForm() {
                     />
                 </div>
                 <div className="form-group mt-4">
-                    <label for="postalAddress" className="ps-1">Postal Address</label>
+                    <label className="ps-1">Postal Address</label>
                     <input
                         type="text"
                         className="form-control mt-2"
