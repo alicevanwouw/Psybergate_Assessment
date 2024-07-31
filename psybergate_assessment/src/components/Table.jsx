@@ -16,12 +16,16 @@ function Table({ columns, data }) {
             </thead>
             <tbody>
                 {data.map((row, rowIndex) => (
-                    <tr key={rowIndex}>
+                    <tr key={rowIndex} className="table-row">
                         {columns.map((column, colIndex) => (
                             column.key !== "Action" ? (
                                 <td key={colIndex}>{row[column.key]}</td>
                             ) : (
-                                <td className="items-end" key={colIndex}>{row.Action(row.Id)}</td>
+                                    <td  key={colIndex}>
+                                        <div className="grid-container">
+                                            <div className="grid-item-right">{row.Action(row.Id)}</div>
+                                        </div>                                       
+                                    </td>
                             )
                         ))}
                     </tr>

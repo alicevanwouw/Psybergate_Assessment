@@ -1,12 +1,12 @@
-import { useState } from 'react';
 import './App.css';
 import { AppRoutes } from './AppRoutes';
+import { FormProvider } from './components/FormContext';
 
 function App() {
-  /*const [count, setCount] = useState(0)*/
-
-  return (
-        <AppRoutes />
+    return (
+        <FormProvider>
+            <AppRoutes />
+        </FormProvider>
   )
 }
 

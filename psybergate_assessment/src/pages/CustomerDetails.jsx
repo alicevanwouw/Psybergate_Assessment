@@ -4,6 +4,7 @@ import Layout from '../components/Layout';
 import { useLocation } from 'react-router-dom';
 import useNavigation from '../hooks/useNavigation';
 import LinkButton from '../components/LinkButton';
+import FormHeading from '../components/FormHeading';
 
 const CustomerDetails = () => {
     const location = useLocation();
@@ -23,7 +24,7 @@ const CustomerDetails = () => {
     return (
         <Layout>
             <div className="p-3 pt-4">
-                <h1>Customer Details</h1>
+                <FormHeading text="Customer Details"/>
                 <div className="p-3 pt-4">
                     {Object.entries(customer).map(([key, value]) => (
                         <p key={key}>

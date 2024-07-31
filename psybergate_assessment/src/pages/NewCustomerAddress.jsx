@@ -15,7 +15,7 @@ const NewCustomerAddress = () => {
 
     return (
         <Layout>
-            <div className="p-3 pt-4">
+            <div className="p-3 pt-4  form-container">
                 <FormHeading text="Add Customer - Address" />
                 <CustomerAddressForm />
                 <div className="pt-3 items-space-between">

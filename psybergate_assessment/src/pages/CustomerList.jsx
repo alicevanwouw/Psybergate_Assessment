@@ -17,6 +17,18 @@ const CustomerList = () => {
         navigateToPage(`/customers/${row.Id}`, { customer: row });
     };
 
+    //const [customer, setCustomers] = useState([]);
+    //useEffect(() => {
+    //    fetch('https://localhost:7199/api/Customer')
+    //        .then((res) => {
+    //            return res.json();
+    //        })
+    //        .then((data) => {
+    //            console.log(data);
+    //            setCustomers(data);
+    //        });
+    //}, []);
+
     const columns = [
         { key: 'Name', displayName: 'Name', type: "text" },
         { key: 'Surname', displayName: 'Surname', type: "text" },
@@ -25,9 +37,18 @@ const CustomerList = () => {
     ];
 
     let data = [
-        { Id: 1, Name: 'Bob', Surname: 'Bobson', CellNumber: '0831234567' },
-        { Id: 2, Name: 'Bob', Surname: 'Bobson', CellNumber: '0831234567' },
-        { Id: 3, Name: 'Bob', Surname: 'Bobson', CellNumber: '0831234567' }
+        {
+            Id: 1, Name: 'Bob', Surname: 'Bobson', CellNumber: '0831234567', Comment: "Customer 1.",
+            PhysicalAddress: '1 Street Street, Cittyville', PostalAddress: '1 Street Street, Cittyville'
+        },
+        {
+            Id: 2, Name: 'Fred', Surname: 'Fredson', CellNumber: '0831234567', Comment: "This Cusomer is named Fred.",
+            PhysicalAddress: '5 Road Road, Cittyville', PostalAddress: '5 Road Road, Cittyville'
+        },
+        {
+            Id: 3, Name: 'Betty', Surname: 'Bettison', CellNumber: '0831234567', Comment: "Betty is a new Customer.",
+            PhysicalAddress: '14 Ave Avenue, Cittyville', PostalAddress: '5 Road Road, Cittyville'
+        }
     ];
 
     const heading = `All Customers (${data.length})`;
@@ -47,6 +68,7 @@ const CustomerList = () => {
                     )
                 }
             </div>
+            
         </Layout>
     );
 }
