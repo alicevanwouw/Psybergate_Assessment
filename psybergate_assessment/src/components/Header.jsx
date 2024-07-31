@@ -12,7 +12,6 @@ function Header() {
                             <Logo />
                         </Link>
                     </div>
-
                     <div className="d-flex flex-row mt-2">
                         <Link className="p-2 nav-button" to="/customers">All Customers</Link>
                         <Link className="p-2 pe-3 nav-button" to="/customers/new/details">Add Customer</Link>

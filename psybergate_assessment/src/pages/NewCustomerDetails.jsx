@@ -13,7 +13,7 @@ const NewCustomerDetails = () => {
 
     return (
         <Layout>
-            <div className="p-3 pt-4">
+            <div className="p-3 pt-4 form-container">
                 <FormHeading text="Add Customer - Details" />
                 <CustomerDetailForm />
                 <div className="pt-3 d-flex flex-row-reverse">
