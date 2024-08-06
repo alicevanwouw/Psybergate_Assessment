@@ -1,7 +1,9 @@
 import React, { useState, useRef, useEffect } from 'react';
+import { useFormContext } from './FormContext';
 import AddressForm from './AddressForm';
 
 function CustomerAddressForm() {
+    const { formData, setFormData } = useFormContext();
     const [usePhysicalAsPostal, setUsePhysicalAsPostal] = useState(false);
     const [postalAddressHeight, setPostalAddressHeight] = useState('auto');
     const postalAddressRef = useRef(null);
@@ -53,7 +55,9 @@ function CustomerAddressForm() {
     ];
 
     const togglePostalAddress = (e) => {
-        setUsePhysicalAsPostal(e.target.checked);
+        let checked = e.target.checked;
+        formData.usePhysicalAsPostal = checked;
+        setUsePhysicalAsPostal(checked);
     };
 
     useEffect(() => {

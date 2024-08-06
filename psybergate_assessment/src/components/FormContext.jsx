@@ -19,7 +19,8 @@ export const FormProvider = ({ children }) => {
         postalAddressl2: '',
         postalAddressl3: '',
         postalAddressl4: '',
-        comments: ''
+        comments: '',
+        usePhysicalAsPostal: '',
     });
 
     return (

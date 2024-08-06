@@ -13,6 +13,14 @@ const NewCustomerComments = () => {
 
     const handleSubmit = async (data) => {
         try {
+            //if use physical address is checked, set postal address = physical address
+            if (formData.usePhysicalAsPostal) {
+                data.postalAddressl1 = data.pysicalAddressl1;
+                data.postalAddressl2 = data.pysicalAddressl2;
+                data.postalAddressl3 = data.pysicalAddressl3;
+                data.postalAddressl4 = data.pysicalAddressl4;
+            }
+
             const response = await fetch('https://localhost:7199/api/Customer', {
                 method: 'POST',
                 headers: {
@@ -38,7 +46,8 @@ const NewCustomerComments = () => {
                 postalAddressl2: '',
                 postalAddressl3: '',
                 postalAddressl4: '',
-                comments: ''
+                comments: '',
+                usePhysicalAsPostal: false,
             });
 
         } catch (error) {
