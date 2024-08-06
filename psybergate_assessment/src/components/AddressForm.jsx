@@ -19,7 +19,7 @@ function AddressForm({ title, inputs}) {
                     id={i.id}
                     placeholder={i.placeholder}
                     onChange={handleChange}
-                    value={formData.physicalAddressl1}
+                    value={formData[i.id]}
                 />
             )}           
         </div>
