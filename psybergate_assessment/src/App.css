@@ -156,3 +156,28 @@ h3 {
     }
 }
 
+.form-check-input-green:checked {
+    background-color: #198754 !important;
+    border-color: #198754 !important;
+}
+
+.form-check-input-green {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.form-check-input-green:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.hidden {
+    height: 0;
+    overflow: hidden;
+    transition: height 0.2s ease;
+}
+
+.visible {
+    height: auto; 
+    transition: height 0.2s ease;
+}
