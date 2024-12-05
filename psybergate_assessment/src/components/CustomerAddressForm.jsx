@@ -1,89 +1,98 @@
+import React, { useState, useRef, useEffect } from 'react';
 import { useFormContext } from './FormContext';
+import AddressForm from './AddressForm';
 
 function CustomerAddressForm() {
     const { formData, setFormData } = useFormContext();
+    const [usePhysicalAsPostal, setUsePhysicalAsPostal] = useState(false);
+    const [postalAddressHeight, setPostalAddressHeight] = useState('auto');
+    const postalAddressRef = useRef(null);
 
-    const handleChange = (e) => {
-        const { id, value } = e.target;
-        setFormData((prevData) => ({ ...prevData, [id]: value }));
+    const inputsPhysicalAddress = [
+        {
+            id: "physicalAddressl1",
+            placeholder: "Address Line 1",
+            type: "text"
+        },
+        {
+            id: "physicalAddressl2",
+            placeholder: "Address Line 2",
+            type: "text"
+        },
+        {
+            id: "physicalAddressl3",
+            placeholder: "Address Line 3",
+            type: "text"
+        },
+        {
+            id: "physicalAddressl4",
+            placeholder: "Address Line 4",
+            type: "text"
+        }
+    ];
+
+    const inputsPostalAddress = [
+        {
+            id: "postalAddressl1",
+            placeholder: "Address Line 1",
+            type: "text"
+        },
+        {
+            id: "postalAddressl2",
+            placeholder: "Address Line 2",
+            type: "text"
+        },
+        {
+            id: "postalAddressl3",
+            placeholder: "Address Line 3",
+            type: "text"
+        },
+        {
+            id: "postalAddressl4",
+            placeholder: "Address Line 4",
+            type: "text"
+        }
+    ];
+
+    const togglePostalAddress = (e) => {
+        let checked = e.target.checked;
+        formData.usePhysicalAsPostal = checked;
+        setUsePhysicalAsPostal(checked);
     };
+
+    useEffect(() => {
+        if (postalAddressRef.current) {
+            setPostalAddressHeight(usePhysicalAsPostal ? '0' : `${postalAddressRef.current.scrollHeight}px`);
+        }
+    }, [usePhysicalAsPostal]);
 
     return (
         <>
             <form>
-                <div className="form-group mt-4">
-                    <label className="ps-1">Physical Address</label>
-                    <input
-                        type="text"
-                        className="form-control mt-2"
-                        id="physicalAddressl1"
-                        placeholder="Address Line 1"
-                        onChange={handleChange}
-                        value={formData.physicalAddressl1}
-                    />
-                    <input
-                        type="text"
-                        className="form-control mt-2"
-                        id="physicalAddressl2"
-                        placeholder="Address Line 2"
-                        onChange={handleChange}
-                        value={formData.physicalAddressl2}
-                    />
-                    <input
-                        type="text"
-                        className="form-control mt-2"
-                        id="physicalAddressl3"
-                        placeholder="Address Line 3"
-                        onChange={handleChange}
-                        value={formData.physicalAddressl3}
-                    />
-                    <input
-                        type="text"
-                        className="form-control mt-2"
-                        id="physicalAddressl4"
-                        placeholder="Address Line 4"
-                        onChange={handleChange}
-                        value={formData.physicalAddressl4}
-                    />
+                <AddressForm title="Physical Address" inputs={inputsPhysicalAddress} />
+                <div
+                    ref={postalAddressRef}
+                    className={usePhysicalAsPostal ? "hidden" : "visible"}
+                    style={{ height: postalAddressHeight }}
+                >
+                    <AddressForm title="Postal Address" inputs={inputsPostalAddress} />
                 </div>
-                <div className="form-group mt-4">
-                    <label className="ps-1">Postal Address</label>
+                {/*{!usePhysicalAsPostal && <AddressForm title="Postal Address" inputs={inputsPostalAddress} />}*/}
+                <div className="form-check mt-3">
                     <input
-                        type="text"
-                        className="form-control mt-2"
-                        id="postalAddressl1"
-                        placeholder="Address Line 1"
-                        onChange={handleChange}
-                        value={formData.postalAddressl1}
+                        className="form-check-input form-check-input-green"
+                        type="checkbox"
+                        id="flexCheckDefault"
+                        checked={usePhysicalAsPostal}
+                        onChange={togglePostalAddress}
                     />
-                    <input
-                        type="text"
-                        className="form-control mt-2"
-                        id="postalAddressl2"
-                        placeholder="Address Line 2"
-                        onChange={handleChange}
-                        value={formData.postalAddressl2}
-                    />
-                    <input
-                        type="text"
-                        className="form-control mt-2"
-                        id="postalAddressl3"
-                        placeholder="Address Line 3"
-                        onChange={handleChange}
-                        value={formData.postalAddressl3}
-                    />
-                    <input
-                        type="text"
-                        className="form-control mt-2"
-                        id="postalAddressl4"
-                        placeholder="Address Line 4"
-                        onChange={handleChange}
-                        value={formData.postalAddressl4}
-                    />
+                    <label className="form-check-label " htmlFor="flexCheckDefault">
+                        Use Physical Address as Postal Address
+                    </label>
                 </div>
             </form>
         </>
-    )
+    );
 }
 
 export default CustomerAddressForm;
